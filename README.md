@@ -1,4 +1,4 @@
-# @uniswap/snapshot-gas-cost
+# Depin-dex-snapshot-gas-cost
 
 Tiny utility function for snapshotting gas costs in unit tests.
 
@@ -10,7 +10,7 @@ commit to your repository.
 ## Usage
 
 ```typescript
-import snapshotGasCost from '@uniswap/snapshot-gas-cost'
+import snapshotGasCost from 'depin-dex-snapshot-gas-cost'
 import {Contract} from "@ethersproject/contracts";
 
 describe('gas tests', () => {
